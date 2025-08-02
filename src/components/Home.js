@@ -288,30 +288,40 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="section" style={{ background: `linear-gradient(135deg, var(--primary) 0%, var(--accent-teal) 100%)` }}>
-        <Container>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center text-white"
-          >
-            <h2 className="mb-4">Ready to Make a Difference?</h2>
-            <p className="lead mb-5">
-              Join our community of volunteers and help us transform lives through education.
-            </p>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Button as={Link} to="/volunteer" size="lg" variant="light" className="fw-bold">
-                Become a Volunteer
-              </Button>
-            </motion.div>
-          </motion.div>
-        </Container>
-      </section>
+<section
+  className="section"
+  style={{
+    background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)',
+    padding: '80px 0',
+  }}
+>
+  <Container>
+    <motion.div
+      initial={{ opacity: 0, scale: 0.8 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="text-center text-dark"
+    >
+      <h2 className="mb-4 fw-bold">Ready to Make a Difference?</h2>
+      <p className="lead mb-5">
+        Join our community of volunteers and help us transform lives through education.
+      </p>
+      <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+        <Button
+          as={Link}
+          to="/volunteer"
+          size="lg"
+          variant="light"
+          className="fw-bold"
+        >
+          Become a Volunteer
+        </Button>
+      </motion.div>
+    </motion.div>
+  </Container>
+</section>
+
     </div>
   );
 };
