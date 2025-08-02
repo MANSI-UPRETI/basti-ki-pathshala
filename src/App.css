@@ -212,9 +212,10 @@ p {
 
 /* Stats Section */
 .stats-section {
-  background-color: var(--accent-sage);
+  background: linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%) !important;
   padding: 4rem 0;
 }
+
 
 .dark-theme .stats-section {
   background-color: var(--accent-navy);
