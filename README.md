@@ -153,11 +153,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Basti Ki Pathshala - [info@bastikipathshala.org](mailto:info@bastikipathshala.org)
-
-Project Link: [https://github.com/your_username/basti-ki-pathshala](https://github.com/your_username/basti-ki-pathshala)
-
----
+https://github.com/MANSI-UPRETI/basti-ki-pathshala
+MAIL ID : mansiupreti029@gmail.com
 
 **Built with ❤️ for empowering education and building brighter futures.**
 
