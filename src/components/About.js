@@ -104,7 +104,7 @@ const About = () => {
         </Container>
       </section>
 
-      <section className="section bg-light">
+      <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -182,7 +182,7 @@ const About = () => {
         </Container>
       </section>
 
-      <section className="section bg-light">
+      <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -220,38 +220,39 @@ const About = () => {
         </Container>
       </section>
 
-      <section className="section" style={{ background: `linear-gradient(135deg, var(--accent-teal) 0%, var(--accent-navy) 100%)` }}>
-        <Container>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center text-white"
-          >
+             <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
+         <Container>
+           <motion.div
+             initial={{ opacity: 0, scale: 0.8 }}
+             whileInView={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 0.8 }}
+             viewport={{ once: true }}
+             className="text-center"
+             style={{ color: '#000000' }}
+           >
             <h2 className="mb-4">Join Our Mission</h2>
             <p className="lead mb-5">
               Every volunteer, every donation, every hour of teaching makes a difference. 
               Together, we can build a brighter future for our children.
             </p>
-            <div className="row g-4 justify-content-center">
-              <div className="col-md-3 col-6">
-                <div className="display-4 mb-2">500+</div>
-                <div className="text-light">Children Educated</div>
-              </div>
-              <div className="col-md-3 col-6">
-                <div className="display-4 mb-2">50+</div>
-                <div className="text-light">Dedicated Volunteers</div>
-              </div>
-              <div className="col-md-3 col-6">
-                <div className="display-4 mb-2">10+</div>
-                <div className="text-light">Years of Service</div>
-              </div>
-              <div className="col-md-3 col-6">
-                <div className="display-4 mb-2">95%</div>
-                <div className="text-light">Success Rate</div>
-              </div>
-            </div>
+                         <div className="row g-4 justify-content-center">
+               <div className="col-md-3 col-6">
+                 <div className="display-4 mb-2" style={{ color: '#000000' }}>500+</div>
+                 <div style={{ color: '#000000' }}>Children Educated</div>
+               </div>
+               <div className="col-md-3 col-6">
+                 <div className="display-4 mb-2" style={{ color: '#000000' }}>50+</div>
+                 <div style={{ color: '#000000' }}>Dedicated Volunteers</div>
+               </div>
+               <div className="col-md-3 col-6">
+                 <div className="display-4 mb-2" style={{ color: '#000000' }}>10+</div>
+                 <div style={{ color: '#000000' }}>Years of Service</div>
+               </div>
+               <div className="col-md-3 col-6">
+                 <div className="display-4 mb-2" style={{ color: '#000000' }}>95%</div>
+                 <div style={{ color: '#000000' }}>Success Rate</div>
+               </div>
+             </div>
           </motion.div>
         </Container>
       </section>

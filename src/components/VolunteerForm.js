@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button, Card, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 const VolunteerForm = () => {
   const [formData, setFormData] = useState({
@@ -111,7 +111,7 @@ const VolunteerForm = () => {
                       We've received your volunteer application. Our team will review your information 
                       and contact you within 2-3 business days to discuss next steps.
                     </p>
-                    <div className="bg-light p-4 rounded-3 mb-4">
+                                         <div className="p-4 rounded-3 mb-4" style={{ background: 'rgba(255, 255, 255, 0.8)' }}>
                       <h5 className="mb-3">What happens next?</h5>
                       <ul className="list-unstyled">
                         <li className="mb-2">📞 We'll call you to discuss your interests and availability</li>
@@ -333,7 +333,7 @@ const VolunteerForm = () => {
         </Container>
       </section>
 
-      <section className="section bg-light">
+             <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 50 }}

@@ -115,7 +115,7 @@ const Home = () => {
       </section>
 
       {/* Mission Section */}
-      <section className="section bg-light">
+      <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             ref={ref}
@@ -194,7 +194,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="stats-section">
+      <section className="stats-section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <Row className="g-4">
             {stats.map((stat, index) => (
@@ -252,7 +252,7 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="section bg-light">
+      <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -288,14 +288,15 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="section" style={{ background: `linear-gradient(135deg, var(--primary) 0%, var(--accent-teal) 100%)` }}>
+      <section className="section" style={{ background: 'linear-gradient(135deg, #ffd6e7 0%, #ffe8d6 50%, #ffd6e7 100%)' }}>
         <Container>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-center text-white"
+            className="text-center"
+            style={{ color: '#000000' }}
           >
             <h2 className="mb-4">Ready to Make a Difference?</h2>
             <p className="lead mb-5">

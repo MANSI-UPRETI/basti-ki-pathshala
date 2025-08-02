@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 
-
 const NavigationBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -36,7 +35,7 @@ const NavigationBar = () => {
       <Navbar
         expand="lg"
         fixed="top"
-        className="py-3 light-nav"
+        className="py-3"
         style={{
           backgroundColor: isScrolled ? 'rgba(255, 255, 255, 0.95)' : 'transparent',
           backdropFilter: isScrolled ? 'blur(10px)' : 'none',
@@ -96,8 +95,6 @@ const NavigationBar = () => {
                   </Nav.Link>
                 </motion.div>
               ))}
-
-              
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -110,10 +107,6 @@ const NavigationBar = () => {
 
         .scrolled {
           box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .dark-nav.scrolled {
-          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
         }
 
         .navbar-brand {
@@ -141,13 +134,6 @@ const NavigationBar = () => {
           font-weight: 700;
         }
 
-        .theme-toggle-btn:hover {
-          background-color: var(--primary) !important;
-          color: var(--white) !important;
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
-        }
-
         .navbar-toggler {
           border: none !important;
           padding: 0.25rem 0.5rem;
@@ -164,11 +150,6 @@ const NavigationBar = () => {
             margin-top: 1rem;
             padding: 1rem;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-          }
-
-          .dark-theme .navbar-collapse {
-            background-color: var(--gray-light);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
           }
 
           .nav-link {

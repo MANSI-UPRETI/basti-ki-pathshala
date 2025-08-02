@@ -14,17 +14,7 @@
   --border-color: #dee2e6;
 }
 
-/* Light Theme Variables (Default) */
-.light-theme {
-  --text-primary: #000000;
-  --text-secondary: #6c757d;
-  --gray-light: #f8f9fa;
-  --gray-dark: #343a40;
-  --border-color: #dee2e6;
-  --secondary: #f1faee;
-  --white: #ffffff;
-  --black: #000000;
-}
+
 
 /* Global Styles */
 * {
@@ -216,9 +206,7 @@ p {
   padding: 4rem 0;
 }
 
-.dark-theme .stats-section {
-  background-color: var(--accent-navy);
-}
+
 
 .stat-card {
   text-align: center;
@@ -249,9 +237,7 @@ p {
   transition: all 0.3s ease;
 }
 
-.dark-theme .testimonial-card {
-  background-color: var(--gray-light);
-}
+
 
 .testimonial-card:hover {
   transform: translateY(-5px);
@@ -281,11 +267,7 @@ p {
   color: var(--text-primary);
 }
 
-.dark-theme .form-control {
-  background-color: var(--gray-light);
-  border-color: var(--border-color);
-  color: var(--text-primary);
-}
+
 
 .form-control:focus {
   border-color: var(--primary);

@@ -24,12 +24,4 @@ html {
   scroll-behavior: smooth;
 }
 
-body.dark-theme {
-  background-color: var(--secondary);
-  color: var(--text-primary);
-}
 
-body.light-theme {
-  background-color: var(--secondary);
-  color: var(--text-primary);
-}
