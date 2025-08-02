@@ -1,6 +1,35 @@
 # Basti Ki Pathshala - Empowering Dreams Through Education
+<img width="1335" height="616" alt="image" src="https://github.com/user-attachments/assets/a1216fe5-4354-4961-a48d-608e7d4bf2ce" />
+<img width="1350" height="633" alt="image" src="https://github.com/user-attachments/assets/57543987-bd0b-4554-830c-ce8f39725f27" />
+<img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/f629c500-b534-4c4b-b27d-68ea294b1c80" />
+<img width="1326" height="615" alt="image" src="https://github.com/user-attachments/assets/972995a8-b7ea-441e-a6a8-3a5f90358873" />
+<img width="1316" height="512" alt="image" src="https://github.com/user-attachments/assets/ec289989-6414-449e-8bfb-0464eb390785" />
+<img width="1303" height="630" alt="image" src="https://github.com/user-attachments/assets/04b16c28-41e6-4ee1-8001-b259072efd4e" />
+<img width="1360" height="646" alt="image" src="https://github.com/user-attachments/assets/58cf65ce-78d2-4b0d-adae-3eabeac84f42" />
+<img width="1273" height="622" alt="image" src="https://github.com/user-attachments/assets/480044cf-d430-42b3-99c8-101a7bcc20b7" />
+<img width="1314" height="606" alt="image" src="https://github.com/user-attachments/assets/c6f2ced8-d98a-4416-a69f-84603f01e1d1" />
+<img width="1278" height="612" alt="image" src="https://github.com/user-attachments/assets/46621a1c-8d73-4200-b24b-6176fc5de2c3" />
+<img width="1309" height="628" alt="image" src="https://github.com/user-attachments/assets/846e0cba-f4de-4e32-b770-5c3bfcb6b066" />
+<img width="1313" height="595" alt="image" src="https://github.com/user-attachments/assets/4c8df80a-0276-49b2-8229-9c13cfeb796e" />
+<img width="1322" height="611" alt="image" src="https://github.com/user-attachments/assets/9b32ac67-57c1-4708-aaca-23414e2d405d" />
+<img width="1269" height="617" alt="image" src="https://github.com/user-attachments/assets/994fb81f-8a6d-42be-808b-56c9e55435c9" />
+<img width="1316" height="623" alt="image" src="https://github.com/user-attachments/assets/650c4e6c-05f9-420a-acab-963a9d314ae2" />
+<img width="1302" height="626" alt="image" src="https://github.com/user-attachments/assets/ec511ee6-99a6-4cfa-92aa-d993e528d77d" />
 
-Welcome to the official frontend repository for **Basti Ki Pathshala**, a non-governmental organization dedicated to providing quality education to underprivileged children. This website serves as a digital hub to showcase our mission, impact, and provide avenues for community engagement, including volunteer opportunities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## ✨ Features
 
